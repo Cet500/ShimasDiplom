@@ -1,0 +1,86 @@
+/* ------------------------------- global ------------------------------- */
+
+/* -------------------- base -------------------- */
+
+.global__body{
+	display: grid;
+	grid-template-areas: "header header header header"
+						 "none1  nav    main   none2"
+						 "footer footer footer footer";
+	grid-template-rows: auto 1fr auto;
+	grid-template-columns: 1fr auto auto 1fr;
+
+	margin: 0;
+	padding: 0;
+
+	min-height: 100vh;
+
+	font-family: Roboto, sans-serif;
+
+	background-color: #cccccc;
+}
+
+/* -------------------- header -------------------- */
+
+.global__header{
+	grid-area: header;
+
+	display: flex;
+
+	justify-content: center;
+}
+.global__header-inner{
+	width: 1200px;
+}
+
+/* -------------------- nav -------------------- */
+
+.global__nav{
+	grid-area: nav;
+
+	width: 300px;
+
+	margin: 30px 15px 30px 0;
+}
+.global__nav-inner{
+	height: auto;
+
+	padding: 20px;
+}
+.global__nav-title{
+	border-bottom: 1px solid #000000;
+}
+.global__nav-list{
+	list-style: none;
+
+	padding-left: 0px;
+}
+.global__nav-list-item{
+	padding: 5px 10px;
+}
+.global__nav-list-item:hover{
+	background-color: #80C8A0;
+}
+.global__nav-list-item-link{
+	text-decoration: none;
+}
+
+/* -------------------- main -------------------- */
+
+.global__main{
+	grid-area: main;
+
+	width: 900px;
+
+	margin: 30px 0 30px 15px;
+	padding: 0 20px;
+}
+
+/* -------------------- footer -------------------- */
+
+.global__footer{
+	grid-area: footer;
+}
+.global__footer-info{
+	text-align: center;
+}
