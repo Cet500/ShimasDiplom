@@ -60,7 +60,7 @@
     .global__nav{
         width: calc(100% - 40px);
 
-        margin: 0 20px;
+        margin: 20px 20px 0;
     }
 
 }
@@ -79,7 +79,7 @@
     .global__main{
         width: auto;
 
-        margin: 20px 20px 20px 10px;
+        padding: 10px 0 10px;
     }
 
 }
@@ -88,8 +88,29 @@
 
     .global__main{
         width: auto;
+    }
 
-        margin: 0 20px;
+}
+
+/* -------------------- section -------------------- */
+
+@media screen and (max-width: 1400px) {
+
+    .global__section{
+        margin: 10px 20px 10px 10px;
+    }
+    .global__section:last-child{
+        margin: 10px 20px 10px 10px;
+    }
+
+}
+@media screen and (max-width: 1040px) {
+
+    .global__section{
+        margin: 10px 20px 10px;
+    }
+    .global__section:last-child{
+        margin: 10px 20px 10px;
     }
 
 }
