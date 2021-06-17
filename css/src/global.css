@@ -72,7 +72,7 @@
 .global__nav-list{
 	list-style: none;
 
-	padding-left: 0px;
+	padding-left: 0;
 }
 .global__nav-list-item{
 	padding: 5px 10px;
