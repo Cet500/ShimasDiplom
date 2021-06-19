@@ -79,7 +79,7 @@
     .global__main{
         width: auto;
 
-        padding: 10px 0 10px;
+        padding: 10px 20px 10px;
     }
 
 }
@@ -97,20 +97,69 @@
 @media screen and (max-width: 1400px) {
 
     .global__section{
-        margin: 10px 20px 10px 10px;
+        margin: 10px 0 10px 0;
     }
     .global__section:last-child{
-        margin: 10px 20px 10px 10px;
+        margin: 10px 0 10px 0;
     }
 
 }
 @media screen and (max-width: 1040px) {
 
     .global__section{
-        margin: 10px 20px 10px;
+        margin: 10px 0 10px;
     }
     .global__section:last-child{
-        margin: 10px 20px 10px;
+        margin: 10px 0 10px;
+    }
+    .global__section.s-2{
+	    width: 43%;
+    }
+    .global__section.s-3{
+	    width: 27%;
+    }
+
+}
+@media screen and (max-width: 750px) {
+
+    .global__section{
+        margin: 10px 0 10px;
+    }
+    .global__section:last-child{
+        margin: 10px 0 10px;
+    }
+    .global__section.s-2{
+	    width: 100%;
+
+        border-radius: 20px;
+    }
+    .global__section.s-2-1{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .global__section.s-2-2{
+        margin-top: 0;
+
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .global__section.s-3{
+	    width: 100%;
+
+        border-radius: 20px;
+    }
+    .global__section.s-3-1{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .global__section.s-3-2{
+        margin: 0;
+
+        border-radius: 0;
+    }
+    .global__section.s-3-3{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
     }
 
 }
