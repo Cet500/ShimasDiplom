@@ -115,6 +115,10 @@
 	border: 1px solid #666666;
 }
 
+.global__section.hover:hover{
+	background-color: #e0e0e0;
+}
+
 .global__section.s-mc{
 	height: min-content;
 }
